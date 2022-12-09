@@ -1,10 +1,10 @@
-import java.util.ArrayList;
-import java.util.List;
-
 // Megan Gagliardi & Rob Savoie
 // 12/09/2022
 // OOP 3200
 // Java Lab 4: Inheritance
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class JavaLab4 {
 	public static void main(String[] args) {		

@@ -97,16 +97,4 @@ public class Product {
 		System.out.println("Quantity Needed: " + getOrder());
 		System.out.println("Special Intructions: " + getInstruct());
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

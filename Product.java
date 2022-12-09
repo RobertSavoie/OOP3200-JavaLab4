@@ -90,6 +90,7 @@ public class Product {
 	
 	// Methods
 	public void display() {
+		System.out.println("--------------------");
 		System.out.println("SKU: " + getSku());
 		System.out.println("Product Name: " + getName());
 		System.out.println("Unit Cost: " + getCost());

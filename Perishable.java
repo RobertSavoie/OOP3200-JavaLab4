@@ -23,7 +23,7 @@ public class Perishable extends Product{
 	
 	// Mutators
 	public void setExpiry(int day, int month, int year) {
-		if((day > 1 || day < 31) && (month > 0 || month < 12) && (year > 2000 || year < 2050))
+		if((day >= 1 || day <= 31) && (month >= 0 || month <= 11) && (year >= 2000 || year <= 2050))
 		{
 			Calendar setDate = Calendar.getInstance();
 			setDate.set(year, month, day);
